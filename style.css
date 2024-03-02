@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    width: 90rem;
+    height: 173.5rem;
+    position: relative;
+}
+
+.header {
+    width: 61.125rem;
+    height: 46.0625rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 0 2.1875rem 2.1875rem;
+    background: linear-gradient(290deg, #D6E6FE 0%, rgba(214,252,254,0.00) 100%);
+    padding-left: 7.25rem;
+    margin-bottom: 4.06rem;
+}
+
+.header-content {
+    max-width: 35.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2.19rem;
+    position: absolute;
+    top: 16.62rem;
+    z-index: 1;
+}
+
+.logo {
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    top: 4.69rem;
+}
+
+.title {
+    font-size: 4rem;
+    margin: 0;
+}
+
+.description {
+    margin: 0;
+    color: #5E6E85;
+    font-size: 1rem;
+    width: 29.2rem;
+}
+
+.form-calculator {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    border-radius: 1rem;
+    width: 35.25rem;
+    position: absolute;
+    top: 10.2rem;
+    left: 44.5rem; 
+    padding: 2rem;
+    gap: 2rem;
+    box-shadow: 16px 32px 56px 0px rgba(143, 174, 207, 0.25);
+    z-index: 2;
+    background-color: #fff;
+}
+
+.detail {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -0.075rem;
+}
+
+.measurment-type {
+    display: flex;
+    width: 100%;
+    gap: 1.5rem;
+}
+
+.initial-scale {
+    width: 100%;
+}
+
+.measure {
+    margin-right: 1.12rem;
+}
+
+.measurement {
+    display: flex;
+    width: 100%;
+    gap: 1.5rem;
+}
+
+.measure-input {
+    font-weight: 600;
+    width: 100%;
+    padding: 1.25rem 1.5rem;
+    font-size: 1.5rem;
+    border-radius: 0.75rem;
+    border: 1px solid #D8E2E7;
+    text-align: center;
+    margin-top: .5rem;
+}
+
+::placeholder {
+    color: #345FF6;
+    font-weight: 600;
+    text-align: right;
+}
+
+.btn {
+    background: linear-gradient(90deg, #345FF6 0%, #587DFF 100%);
+    padding: 2em;
+    border-radius: 1rem 62.4375rem 62.4375rem 1rem;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.your-result {
+    display: flex;
+    width: 72.5rem;
+    height: 33.3125rem;
+    margin: 0 8.75rem;
+    justify-content: space-between;
+}
+
+.man-eating {
+    width: 29.25rem;
+    height: 33.3rem;
+}
+
+.bmi-result {
+    display: flex;
+    flex-direction: column;
+    gap: 2.19rem;
+    width: 29.06rem;
+    margin-top: 11.75rem;
+}
+
+.curved-line {
+    position: absolute;
+    top: 48.81rem;
+    right: 10.44rem;
+}
+
+.reference {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 3.3rem;
+    letter-spacing: -0.15rem;
+    margin: 0;
+}
+
+.definition {
+    font-size: 1rem;
+    color: #5E6E85;
+    margin: 0;
+    line-height: 1.5rem;
+}
+
+.information {
+    display: flex;
+    width: 87rem;
+    height: 25.12rem;
+    border-radius: 2.18rem;
+    background: linear-gradient(290deg, #D6E6FE 0%, rgba(214, 252, 254, 0.00) 100%);
+    margin-top: 6rem;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 7.25rem;
+    gap: 2rem;
+}
+
+.tips {
+    width: 100%;
+}
+
+.tips img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.tip {
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: -0.075rem;
+}
+
+.bmi-limitations {
+    width: 72.5rem;
+    height: 44rem;
+}
+
+
+
+
+
+
+
